@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@rempel/n8n-nodes-oracle": "^1.0.2"
+  }
+}

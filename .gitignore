@@ -1,0 +1,48 @@
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-data/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# System
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Oracle Client
+*.zip
+/opt/instantclient*
+
+# Arquivos temporários
+tmp/
+temp/
+
+# n8n local data
+home-node-n8n/
+
+# Node modules
+node_modules/
