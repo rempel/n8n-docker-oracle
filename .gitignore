@@ -46,3 +46,7 @@ home-node-n8n/
 
 # Node modules
 node_modules/
+
+# Custom
+custom/nodes/*
+scripts

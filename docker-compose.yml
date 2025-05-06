@@ -16,10 +16,12 @@ services:
       - DB_POSTGRESDB_SCHEMA=public
       - DB_POSTGRESDB_PASSWORD=${POSTGRES_PASSWORD}
       - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - N8N_CUSTOM_EXTENSIONS=/data/custom
     ports:
       - "5678:5678"
     volumes:
       - n8n-data:/home/node/.n8n
+      - ./custom:/data/custom
     depends_on:
       postgresql:
         condition: service_healthy
